@@ -1,0 +1,9 @@
+Angular 8 and TypeScript/HTML VS Code Snippets
+Angular Files
+Angular Language Service
+
+git clone https://github.com/IIlinovn/myFirstApp.git
+cd myFirstApp
+cd my-app
+npm install
+ng serve --open
