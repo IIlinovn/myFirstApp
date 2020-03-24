@@ -1,2 +1,30 @@
-cd my-app
-ng serve --open
+https://angular.io/guide/setup-local
+
+1. Поставить git (https://git-scm.com/downloads)
+2. Поставить NodeJS (https://nodejs.org/)
+// Установили angular
+3. npm install -g @angular/cli
+
+// Создали проект
+4. ng new my-app
+
+// Запускаем angular
+5. 
+    cd my-app
+    ng serve --open
+
+6. Выполняем первый коммит. Будет ошибка, из нее копируем
+    Надо указать имя и емайл аккаунта
+
+7. Повторно выполняем первый коммит. Должен пройти без ошибки.
+
+8.
+    Открываем сайт github, авторизируемся
+    Создаем новый репозиторий
+    При этом сразу пишет команды для подключения (выбираем подключение существующего)
+    Пример:
+    //…or push an existing repository from the command line
+        git remote add origin https://github.com/IIlinovn/1111.git
+        git push -u origin master
+
+9. Выполняем команды в консоли.
