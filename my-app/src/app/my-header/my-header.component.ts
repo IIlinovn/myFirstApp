@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-header.component.css']
 })
 export class MyHeaderComponent implements OnInit {
+  title = "Шапка сайта"
 
   constructor() { }
 
